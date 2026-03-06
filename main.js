@@ -14,8 +14,6 @@ function mostrarMensagens() {
     }, i * 2000);
   });
 }
-
-// NEVE
 function criarNeve() {
   for (let i = 0; i < 40; i++) {
     const floco = document.createElement("div");
@@ -27,8 +25,6 @@ function criarNeve() {
     document.body.appendChild(floco);
   }
 }
-
-// FOGOS
 function fogos() {
   const f = document.createElement("div");
   f.style.position = "absolute";
